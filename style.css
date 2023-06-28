@@ -1,0 +1,150 @@
+body {
+    background-color: #FFC1C1;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lobster Two', cursive;
+    margin-top: 10px;
+}
+
+.header {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: absolute;
+    align-items: center;
+}
+
+
+.logo-alura {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 45px; 
+    height: auto; 
+}
+
+
+.container-wrapper {
+    margin-top: 20px;
+    margin-left: -250px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin-right: 100px;
+}
+
+
+
+.container-output {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #FFC1C1;
+    text-shadow: 1px 1px #ce2b6f;
+}
+
+.textareas {
+    text-align: center;
+    background-color: transparent;
+}
+
+textarea {
+    padding: 5px;
+    border: none;
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 0 5px #000;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d90083;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+button:hover {
+    background-color: #f197c7;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    object-position: right top;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output {
+    min-height: 150px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.copy-btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #fcbbe5;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 5px #000;
+}
+
+.copy-btn:hover {
+    background-color: #FF1493;
+}
+
+  
+.info {
+    display: absolute;
+    align-items: center;
+    margin-bottom: 0px;
+}

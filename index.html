@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Challenge Encriptador</title>
+	<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="https://www.aluracursos.com">
+                <img src="img/a-logo.png" class="logo-alura"></a>  
+        </div>
+    
+    </header>
+    <div class="container-wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="textareas">
+                    <label for="text">Ingresa el mensaje a encriptar:</label><br>
+                    <br>
+                    <br>
+                    <textarea id="text" name="text" placeholder="Solo minúsculas sin acentos."></textarea><br><br>
+                    <button onclick="encrypt()">¡Encripta!</button>
+                    <button onclick="decrypt()">¡Desencripta!</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-output">
+            <div class="content">
+                <div class="result">
+                    <label for="output">Resultado:</label><br>
+                    <br>
+                    <textarea id="output" name="output" readonly></textarea>
+                    <button class="copy-btn" onclick="copyToClipboard()">¡Copia!</button>
+                </div>
+            </div>
+        </div>
+    </div>      
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p class="info">Oracle One | Grupo 5 - 2023</p>
+</footer>
+</html>
